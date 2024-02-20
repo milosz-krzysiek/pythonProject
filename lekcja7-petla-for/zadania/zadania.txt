@@ -1,0 +1,15 @@
+zad1
+wypisz na ekran sumê wszystkich parzystych liczb z przedzia³u <1, 1001>. 
+Wykorzystaj pêtlê for.
+
+zad2
+wypisze na ekran sumê liczb z przedzia³u <1,x>, gdzie x podaje u¿ytkownik. 
+Wykorzystaj pêtlê for.
+
+zad3
+obliczy i wypisze na ekran sumê kwadratów liczb z przedzia³u <1,x>, 
+gdzie x podaje u¿ytkownik. Wykorzystaj pêtlê for.
+
+zad4
+wypisz na ekran x kolejnych potêg liczby 2 od 0 do x, ka¿da w osobnej
+linii, gdzie x podaje u¿ytkownik. Wykorzystaj pêtlê for.

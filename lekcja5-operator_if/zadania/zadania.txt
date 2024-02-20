@@ -1,0 +1,22 @@
+ZADANIA DO ZROBIENIA
+
+Zadanie 1
+Napisz program obliczajacy wartosc bezwzgledna z liczby podanej przez uzytkownika.
+
+Zadanie 2
+Napisz program informujacy czy liczba podana przez uzytkownika jest wieksza, mniejsza czy rowna zero. Wykorzystaj tylko dwie instrukcje warunkowe.
+
+Zadanie 3
+Napisz program informujacy czy liczba podana przez uzytkownika jest parzysta czy nieparzysta.
+
+Zadanie 4
+Napisz program wyznaczajacy najmniejsza z trzech liczb podanych przez uzytkownika.
+
+Zadanie 5
+Napisz program, ktory odpowiada na pytanie, czy wsrod trzech liczb sa choc dwie takie same.
+
+Zadanie 6
+Napisz program, ktory odpowiada na pytanie, czy trzy podawane liczby calkowite sa ustawione w porzadku rosnacym.
+
+Zadanie 7
+Napisz program sprawdzajacy czy liczba podana przez uzytkownika jest z przedzialu <1,10> lub <17,21>
