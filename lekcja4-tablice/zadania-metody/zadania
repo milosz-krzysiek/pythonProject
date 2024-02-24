@@ -1,16 +1,16 @@
-Napisz funkcję, która jako parametr wejściowy przyjmie liczbę naturalną.
+1. Napisz funkcję, która jako parametr wejściowy przyjmie liczbę naturalną.
 Funkcja powinna zwracać listę składającą się z pięciu liczb, kolejnych wielokrotności 
 wartości parametru wejściowego. Np. dla wartości 3 parametru wejściowego funkcji: [3, 6, 9 , 12, 15].
 
-Napisz funkcję, która przyjmuje wartości dwóch parametrów wejściowych: x, y. 
+2. Napisz funkcję, która przyjmuje wartości dwóch parametrów wejściowych: x, y. 
 Funkcja powinna zwrócić listę parzystych elementów mieszczących się w przedziale <x, y).
 
-Napisz funkcję, która przyjmuje wartości dwóch parametrów wejściowych: x, y. Funkcja powinna 
+3. Napisz funkcję, która przyjmuje wartości dwóch parametrów wejściowych: x, y. Funkcja powinna 
 zwrócić listę nieparzystych elementów mieszczących się w przedziale <x, y) posortowanych w kolejności malejącej.
 
-Napisz funkcję, która jako parametr wejściowy przyjmie liczbę naturalną n. Funkcja powinna zwracać listę 
+4. Napisz funkcję, która jako parametr wejściowy przyjmie liczbę naturalną n. Funkcja powinna zwracać listę 
 składającą się z kwadratów liczb całkowitych z przedziału <1,n). 
 Jeśli wartość parametru wejściowego będzie równa 1, funkcja ma zwrócić pustą listę.
 
-Napisz funkcję, która jako parametr wejściowy przyjmie liczbę naturalną n. 
+5. Napisz funkcję, która jako parametr wejściowy przyjmie liczbę naturalną n. 
 Funkcja powinna zwracać listę składającą się ze wszystkich dzielników liczby n.

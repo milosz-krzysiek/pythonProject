@@ -45,14 +45,30 @@ def wywołanieZadania3():
 
 #wywołanieZadania3()
     
-def zadanie4():
-    pass
+def zadanie4(n : int):
+    lista = []
+    for x in range(1, n):
+        lista.append(x ** 2)
+    return lista
 
 def wywołanieZadania4():
-    pass
+    liczba = int(input("Podai liśbę 'iks' :"))
+    #rezultat = zadanie4(liczba)
+    #print(rezultat)
+    print(zadanie4(liczba))
 
-def zadanie5():
-    pass
+#wywołanieZadania4()
+def zadanie5(n : int):
+    dzielniki : list[int] = []
+    for x in range(1, n + 1):
+        if(n % x == 0):
+            dzielniki.append(x)
+
+    return dzielniki
 
 def wywołanieZadania5():
-    pass
+    liczba = int(input("Podai liśbę 'iks' :"))
+    rezultat = zadanie5(liczba)
+    print(rezultat)
+
+wywołanieZadania5()
