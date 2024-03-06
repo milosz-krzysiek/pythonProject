@@ -1,3 +1,5 @@
+from my_utils.utils import simplify_output
+
 liczba_1 = 0
 liczba_2 = 0
 znak = ''
@@ -26,4 +28,4 @@ match znak:
         print("Błędny znak")
         exit()
 
-print(wynik)
+print(simplify_output(wynik))
