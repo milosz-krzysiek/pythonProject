@@ -1,16 +1,16 @@
+
+
 def kalkulator():
     while True:
-        konewka = input("Podaj wyrażenie matematyczne lub 'exit' aby zakończyć: ")
+        input_message = input("Podaj wyrażenie matematyczne lub 'exit' aby zakończyć: ")
 
-        if konewka.lower() == 'exit':
+        if input_message.lower() == 'exit':
             print("Kalkulator zakończył pracę.")
             break
 
-        try:
-            result = eval(konewka)
-            print("Wynik:", result)
-        except Exception as e:
-            print("Błąd:", e)
+    
+        result = input_message
+
 
 if __name__ == "__main__":
     kalkulator()
