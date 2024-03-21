@@ -17,8 +17,12 @@ def wywolanie_kalkulatora():
     elif(znak == "/"):
         if(liczba_2 == 0):
             print("nie można dzielić przez '0'")
-            exit()
+            exit()        
         else:
             wynik = liczba_1 / liczba_2
+    elif(znak == "**"):
+        wynik = liczba_1 ** liczba_2 
         
     print(wynik)
+
+wywolanie_kalkulatora()
