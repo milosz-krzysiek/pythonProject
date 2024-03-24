@@ -24,6 +24,8 @@ def wywolanie_kalkulatora(rownanie):
                 return "błąd"
             else:
                 wynik = liczba_1 / liczba_2
+        case '**':
+            wynik = liczba_1 ** liczba_2
         case _:
             print("Błędny znak")
             return "błąd"
