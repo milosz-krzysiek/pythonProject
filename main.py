@@ -1,5 +1,5 @@
 
-from wlasne_funkcje.ujemne.max.maxProduct import maxProduct
+from zadania.listy.max.maxProduct import maxProduct
 from wlasne_funkcje.utils.utils_foo import generateList
 
 if __name__ == '__main__':
