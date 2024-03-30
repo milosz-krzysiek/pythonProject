@@ -1,7 +1,4 @@
-import random
-
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
+from wlasne_funkcje.utils.utils_foo import generateList
 
 def findMinElement(lista: list[int]):
     min_index = 0
@@ -10,4 +7,8 @@ def findMinElement(lista: list[int]):
             min_index = index 
     return (lista[min_index], min_index)
 
-print(findMinElement(lista=liczby))
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = findMinElement(lista=liczby)
+    print(result) 

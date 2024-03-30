@@ -1,3 +1,5 @@
+from wlasne_funkcje.utils.utils_foo import generateList
+
 
 def maxProduct(lista: list[int]):
     maxProduct = lista[0] * lista[1]
@@ -10,3 +12,10 @@ def maxProduct(lista: list[int]):
             maxProductIndex = index
 
     return maxProduct, maxProductIndex, maxProductIndex+1
+
+
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = maxProduct(lista=liczby)
+    print(result)

@@ -1,7 +1,5 @@
-import random
+from wlasne_funkcje.utils.utils_foo import generateList
 
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
 
 def maxSum(lista: list[int]):
     maxSum = 0
@@ -16,4 +14,9 @@ def maxSum(lista: list[int]):
 
     return maxSum, maxSumIndex, maxSumIndex+1
 
-print(maxSum(lista=liczby))    
+
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = maxSum(lista=liczby)
+    print(result) 

@@ -1,19 +1,19 @@
-import random
+from wlasne_funkcje.utils.utils_foo import generateList
 
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
-
-def maxSum(lista: list[int]):
-    maxSum = 10110
-    maxSumIndex = 0
+def minSum(lista: list[int]):
+    minSum = 10110
+    minSumIndex = 0
     n = len(lista) - 1
     for index in range(n):
         diff = lista[index] + lista[index + 1]
         diff = abs(diff)
-        if maxSum > diff: 
-            maxSum = diff
-            maxSumIndex = index
+        if minSum > diff: 
+            minSum = diff
+            minSumIndex = index
 
-    return maxSum, maxSumIndex, maxSumIndex+1
-
-print(maxSum(lista=liczby))    
+    return minSum, minSumIndex, minSumIndex+1
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = minSum(lista=liczby)
+    print(result)   

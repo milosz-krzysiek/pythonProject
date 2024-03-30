@@ -1,7 +1,4 @@
-import random
-
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
+from wlasne_funkcje.utils.utils_foo import generateList
 
 def minQuotient(lista: list[int]):
     minQuotient = 100
@@ -16,4 +13,8 @@ def minQuotient(lista: list[int]):
 
     return minQuotient, minQuotientIndex, minQuotientIndex+1
 
-print(minQuotient(lista=liczby))  
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = minQuotient(lista=liczby)
+    print(result) 

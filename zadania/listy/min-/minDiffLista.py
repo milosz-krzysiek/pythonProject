@@ -1,7 +1,4 @@
-import random
-
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
+from wlasne_funkcje.utils.utils_foo import generateList
 
 def minDiff(lista: list[int]):
     minDiff = 100
@@ -16,4 +13,8 @@ def minDiff(lista: list[int]):
 
     return minDiff, minDiffIndex, minDiffIndex + 1
 
-print(minDiff(lista=liczby))
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = minDiff(lista=liczby)
+    print(result) 

@@ -1,7 +1,4 @@
-import random
-
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
+from wlasne_funkcje.utils.utils_foo import generateList
 
 def findMaxElement(lista: list[int]):
     max = lista[0]
@@ -27,8 +24,9 @@ def findMaxElement2(lista: list[int]):
     return (indexMax, lista[indexMax])
     
     
-
-
-print(findMaxElement(lista=liczby))
-print(findMaxElementIndex(lista=liczby))
-print(findMaxElement2(lista=liczby))
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    print(findMaxElement(lista=liczby))
+    print(findMaxElementIndex(lista=liczby))
+    print(findMaxElement2(lista=liczby))

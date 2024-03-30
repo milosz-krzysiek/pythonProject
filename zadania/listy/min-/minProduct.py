@@ -1,8 +1,4 @@
-import random
-
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
-
+from wlasne_funkcje.utils.utils_foo import generateList
 def minProduct(lista: list[int]):
     minProduct = 10000
     minProductIndex = 0
@@ -16,4 +12,8 @@ def minProduct(lista: list[int]):
 
     return minProduct, minProductIndex, minProductIndex+1
 
-print(minProduct(lista=liczby))    
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = minProduct(lista=liczby)
+    print(result) 

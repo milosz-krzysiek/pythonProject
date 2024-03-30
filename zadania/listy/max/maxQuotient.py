@@ -1,7 +1,5 @@
-import random
+from wlasne_funkcje.utils.utils_foo import generateList
 
-liczby = [random.randint(1, 100) for i in range(15)]
-print(liczby)
 
 def maxQuotient(lista: list[int]):
     maxQuotient = 1
@@ -16,4 +14,8 @@ def maxQuotient(lista: list[int]):
 
     return maxQuotient, maxQuotientIndex, maxQuotientIndex+1
 
-print(maxQuotient(lista=liczby))  
+def usage():
+    liczby = generateList(1, 100, 15)
+    print(liczby)
+    result = maxQuotient(lista=liczby)
+    print(result) 
