@@ -16,5 +16,6 @@ def maxDiff(lista: list[int]):
 
 def usage():
     liczby = generateList(1, 100, 15)
+    print(liczby)
     result = maxDiff(lista=liczby)
     print(result)
