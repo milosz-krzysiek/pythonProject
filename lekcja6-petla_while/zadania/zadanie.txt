@@ -1,16 +1,16 @@
 https://technikinformatyk.pl/kursy/kurs/python/lekcja/python-petle-while/
 
 zad1
-Uzupe³nij kod programu w jêzyku Python, który obliczy i wypisze na ekran 
-sumê liczb z przedzia³u <1,1001>, które s¹ (podzielne) przez 3. Wykorzystaj
-pêtlê while.
+Uzupeï¿½nij kod programu w jï¿½zyku Python, ktï¿½ry obliczy i wypisze na ekran 
+sumï¿½ liczb z przedziaï¿½u <1,1001>, ktï¿½re sï¿½ (podzielne) przez 3. Wykorzystaj
+pï¿½tlï¿½ while.
 
 zad2
-Uzupe³nij kod programu w jêzyku Python, który obliczy i wypisze na ekran silnie
-z wprowadzonej przez u¿ytkownika liczby naturalnej x. Silnia z liczby to iloczyn 
-kolejnych liczb pocz¹wszy od 1, skoñczywszy na danej liczbie,
-przyk³adowo silnia z 3 wynosi 3! = 1*2*3 = 6. Wykorzystaj petle while.
+Uzupeï¿½nij kod programu w jï¿½zyku Python, ktï¿½ry obliczy i wypisze na ekran silnie
+z wprowadzonej przez uï¿½ytkownika liczby naturalnej x. Silnia z liczby to iloczyn 
+kolejnych liczb poczï¿½wszy od 1, skoï¿½czywszy na danej liczbie,
+przykï¿½adowo silnia z 3 wynosi 3! = 1*2*3 = 6. Wykorzystaj petle while.
 
 zad3
-Uzupe³nij kod programu w jêzyku Python, który obliczy wypisze na ekran sumê co 
-trzeciej liczby z przedzia³u <1,1001> (1, 4, 7, 10...). Wykorzystaj pêtlê while.
+Uzupeï¿½nij kod programu w jï¿½zyku Python, ktï¿½ry obliczy wypisze na ekran sumï¿½ co 
+trzeciej liczby z przedziaï¿½u <1,1001> (1, 4, 7, 10...). Wykorzystaj pï¿½tlï¿½ while.

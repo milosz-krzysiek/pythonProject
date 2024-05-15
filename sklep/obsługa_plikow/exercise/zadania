@@ -1,0 +1,18 @@
+1. Napisz program, który otwiera plik tekstowy o nazwie "dane.txt" 
+i wyświetla jego zawartość na ekranie.
+2. Poproś użytkownika o podanie nazwy pliku tekstowego, 
+otwórz ten plik i wyświetl jego zawartość.
+3. Napisz funkcję, która przyjmuje nazwę pliku jako 
+argument i zwraca zawartość pliku w postaci listy linii.
+4. Stwórz program, który zlicza liczbę słów w pliku tekstowym.
+5. Napisz funkcję, która odczytuje plik CSV 
+(zakładając, że jest to plik CSV z jedną kolumną) 
+i zwraca listę wartości z tej kolumny.
+6. Zmodyfikuj program, aby odczytywał zawartość pliku tekstowego 
+i zliczał wystąpienia poszczególnych słów, ignorując wielkość liter.
+7. Napisz program, który wczytuje zawartość pliku tekstowego 
+zawierającego liczby całkowite (po jednej liczbie w każdej linii) 
+i oblicza ich sumę.
+10. Napisz program, który odczytuje plik tekstowy 
+i zamienia wszystkie litery na duże, 
+a następnie zapisuje zmienioną zawartość do nowego pliku.
